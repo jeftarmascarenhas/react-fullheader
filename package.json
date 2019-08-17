@@ -1,7 +1,7 @@
 {
-  "name": "lyef-react-component",
-  "version": "1.1.2",
-  "description": "An opinionated boilerplate for reusable and declouped react components.",
+  "name": "react-fullheader",
+  "version": "0.0.1",
+  "description": "A full header component create with react",
   "main": "dist/Main.js",
   "scripts": {
     "build": "npm run clean && npm run babel && npm run minify",
@@ -28,22 +28,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lyef/lyef-react-component.git"
+    "url": "git+ssh://git@github.com/jeftarmascarenhas/react-fullheader.git"
   },
   "keywords": [
     "react",
     "component",
     "base"
   ],
-  "author": "lyef (http://lyef.github.io/)",
+  "author": "Jeftar (https://github.com/jeftarmascarenhas)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lyef/lyef-react-component/issues"
+    "url": "https://github.com/jeftarmascarenhas/react-fullheader/issues"
   },
-  "homepage": "https://github.com/lyef/lyef-react-component#README",
+  "homepage": "https://github.com/jeftarmascarenhas/react-fullheader#README",
   "devDependencies": {
     "@personare/react-storybook-decorator-github-corner": "^0.1.4",
-    "@storybook/react": "^3.1.5",
+    "@storybook/react": "^5.1.11",
     "@storybook/storybook-deployer": "^2.0.0",
     "babel-cli": "^6.11.4",
     "babel-core": "^6.10.4",
@@ -52,6 +52,7 @@
     "babel-preset-airbnb": "^2.0.0",
     "babel-register": "^6.24.1",
     "chai": "^3.5.0",
+    "chai-enzyme": "^1.0.0-beta.1",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",
     "eslint": "^2.13.1",
@@ -61,8 +62,8 @@
     "eslint-plugin-react": "^5.2.2",
     "husky": "^0.11.4",
     "jsdom": "^9.4.1",
-    "mocha": "^2.5.3",
-    "nyc": "^7.0.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
     "raw-loader": "^0.5.1",
     "react-test-renderer": "^16.0.0",
     "rimraf": "^2.5.3",
