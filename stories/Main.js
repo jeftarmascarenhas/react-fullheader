@@ -35,19 +35,19 @@ storiesOf('FullHeader', module)
             font="cursive"
         />);
     })
-    .add('with title, subtitle', () => {
-        <FullHeader
+    .add('with title, subtitle, bgImg', () => {
+        return (<FullHeader
             title="TDD"
             subtitle="Na Prática"
             bgImg="http://www.htmldrive.net/edit_media/2011/201107/20110719/Full-background-webdevtuts/images/image1.jpg"
-        />;
+        />);
     })
     .add('with title, subtitle, video', () => {
-        <FullHeader
+        return (<FullHeader
             title="TDD"
             subtitle="Na Prática"
             bgColor="#3299BB"
             textColor="#FF9900"
             video={video}
-        />;
+        />);
     });
